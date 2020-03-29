@@ -5,47 +5,63 @@ body {
 }
 
 body {
-  background: #000;
+  background: url("https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/17855530_10155003075460516_28531051085030535_o.jpg?_nc_cat=108&_nc_sid=daf655&_nc_ohc=d09LCrWsVgcAX91WyVT&_nc_ht=scontent-lga3-1.xx&oh=cd33d31500c3ca0eda05b531feda754e&oe=5EA64493");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   position: relative;
-  font-family: 'Ubuntu Mono',
-    monospace;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+h1 {
+  color: #E55934;
+  font-size: 50px;
+}
+
+p {
+  color: #E55934;
+  font-size: 40px;
+  font-weight: 200;
 }
 
 a {
-  color: #019cdc;
-  font-size: 12px;
+  color: rgb(255,50,0);
+  font-size: 23px;
   display: block;
+}
+
+span {
+  font-size: 20px;
 }
 
 /* ":hover" will effect the color
  of links when you "mouseover" */
 a:hover,
 a:visited:hover {
-  color: #7ac043;
+  color: rgb(0,0,244);
 }
 
 /* ":visited" will effect the color
  of links you have previously clicked on */
 a:visited {
-  color: #f58428;
+  color: #5BC0EB;
 }
 
 .link-heading {
   display: block;
-  font-size: 12px;
+  font-size: 30px;
 }
 
 .square-one .inner {
-  background: #f58428;
+  background: #003049;
 }
 
 .square-two .inner {
-  background: #7ac043;
+  background: #D62828;
 }
 
 .square-three .inner {
-  background: #019cdc;
+  background: #F77F00;
 }
 
 .outer {
@@ -93,9 +109,9 @@ a:visited {
   display: flex;
   height: 240px;
   width: 240px;
-  transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
+  transition: all 1.5s ease-out;
+  -webkit-transition: all 1.5s ease-out;
+  -moz-transition: all 1.5s ease-out;
 }
 
 .wrap:hover .square-one {
